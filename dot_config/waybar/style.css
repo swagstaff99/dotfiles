@@ -8,7 +8,7 @@
 }
 
 window#waybar {
-    background-color: transparent;
+    background-color: @mantle;
     /*border-bottom: 3px solid alpha(@mantle, 0.3);*/
     color: @text;
     /*transition-property: background-color;
@@ -129,8 +129,8 @@ button:hover {
 }
 
 #clock {
-    background-color: @surface2;
-    color: @text;
+    background-color: @lavender;
+    color: @mantle;
 }
 
 #battery {
@@ -185,13 +185,13 @@ label:focus {
 }
 
 #cpu {
-    background-color: @surface2;
-    color: @text;
+    background-color: @yellow;
+    color: @mantle;
 }
 
 #memory {
-    background-color: @surface2;
-    color: @text;
+    background-color: @flamingo;
+    color: @mantle;
 }
 
 #disk {
@@ -203,8 +203,8 @@ label:focus {
 }
 
 #network {
-    background-color: @surface2;
-    color: @text;
+    background-color: @blue;
+    color: @mantle;
 }
 
 #network.disconnected {
@@ -212,8 +212,8 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: @surface2;
-    color: @text;
+    background-color: @peach;
+    color: @mantle;
 }
 
 #pulseaudio.muted {
