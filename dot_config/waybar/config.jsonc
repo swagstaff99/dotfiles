@@ -2,18 +2,18 @@
 {
      "layer": "top", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 30, // Waybar height (to be removed for auto height)
+    "height": 25, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
+    "margin": 0,
     "modules-left": [
         "hyprland/submap",
-        "sway/scratchpad",
-        "custom/media"
+	"hyprland/workspaces",
+	"mpris"
     ],
     "modules-center": [
-        "sway/window",
-	"hyprland/workspaces"
+	"hyprland/window"
     ],
     "modules-right": [
         "pulseaudio",
@@ -205,5 +205,19 @@
 			"suspend": "systemctl suspend",
 			"hibernate": "systemctl hibernate"
 		}
-    }
+    },
+
+    "mpris": {
+	"format": "{player_icon} <i>{dynamic}</i>",
+	"format-paused": "{status_icon} <i>{dynamic}</i>",
+	"interval": 1,
+	"player-icons": {
+		"default": "▶",
+		"mpv": "🎵"
+	},
+	"status-icons": {
+		"paused": "⏸"
+	}
+
+	}
 }
