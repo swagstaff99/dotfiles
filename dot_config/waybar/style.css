@@ -19,7 +19,7 @@ window#waybar {
     color: @text;
     /*transition-property: background-color;
     transition-duration: .5s;*/
-    /*opacity: 1.0;*/
+    opacity: 0.8;
     /*border: none;*/
     /*border-radius: 0;*/
 }
