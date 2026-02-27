@@ -11,3 +11,4 @@ PS1='[\u@\h \W]\$ '
 eval "$(starship init bash)"
 fastfetch
 alias update='sudo pacman -Syu && yay'
+alias w='start-hyprland'

@@ -1,11 +1,24 @@
+[ButtonBehaviour]
+ShowBackgroundNormallyActive=true
+ShowBackgroundNormallyInactive=true
+ShowCloseBackgroundNormallyActive=true
+ShowCloseBackgroundNormallyInactive=true
+ShowCloseIconNormallyActive=false
+ShowCloseIconNormallyInactive=false
+ShowIconNormallyActive=false
+ShowIconNormallyInactive=false
+
 [ButtonColors]
 ButtonBackgroundColorsActive=AccentTrafficLights
 ButtonBackgroundColorsInactive=AccentTrafficLights
 CloseButtonIconColorActive=AsSelected
 CloseButtonIconColorInactive=AsSelected
 
+[ButtonSizing]
+ButtonSpacingRight=4
+
 [Global]
-LookAndFeelSet=org.kde.klassykitedarkbottompanel.desktop
+LookAndFeelSet=Catppuccin.Mocha
 RefreshedConfig=6.5.2
 
 [Style]
@@ -21,8 +34,9 @@ OverrideInactiveTitleBarOpacity=true
 [Windeco]
 ButtonIconStyle=StyleMetro
 ButtonShape=ShapeSmallCircle
+IconSize=IconSmallMedium
 MatchTitleBarToApplicationColor=true
-WindowCornerRadius=10
+WindowCornerRadius=8
 
 [WindowOutlineStyle]
 WindowOutlineContrastOpacityActive=50
