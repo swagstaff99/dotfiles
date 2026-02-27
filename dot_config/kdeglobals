@@ -119,7 +119,7 @@ toolBarFont=SF Pro,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 LookAndFeelPackage=Catppuccin.Mocha
 contrast=7
 frameContrast=0.2
-widgetStyle=kvantum-dark
+widgetStyle=qt6ct-style
 
 [KFileDialog Settings]
 Allow Expansion=false
