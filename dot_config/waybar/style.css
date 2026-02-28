@@ -19,9 +19,9 @@ window#waybar {
     color: @text;
     /*transition-property: background-color;
     transition-duration: .5s;*/
-    opacity: 0.8;
+    opacity: 1.0;
     /*border: none;*/
-    /*border-radius: 0;*/
+    border-radius: 10;
 }
 
 /*window#waybar.hidden {
