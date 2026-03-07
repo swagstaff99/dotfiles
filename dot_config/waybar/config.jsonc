@@ -211,6 +211,7 @@
 	"format": "{player_icon} <i>{dynamic}</i>",
 	"format-paused": "{status_icon} <i>{dynamic}</i>",
 	"interval": 1,
+	"max-length": 30,
 	"player-icons": {
 		"default": "▶",
 		"mpv": "🎵"
@@ -218,6 +219,11 @@
 	"status-icons": {
 		"paused": "⏸"
 	}
+
+	},
+
+    "hyprland/window": {
+	"max-length": 30
 
 	}
 }
