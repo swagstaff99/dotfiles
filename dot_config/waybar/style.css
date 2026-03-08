@@ -3,25 +3,21 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: FontAwesome, SF Pro, sans-serif;
-    font-size: 16px;
-    border: none;
-    border-radius: 0;
-    border-bottom: 4px solid transparent;
-    background-color: transparent;
+    font-size: 14px;
+    border: 0px;
+    border-radius: 10px;
     min-height: 0;
-    margin: 0 2px;
-    padding: 0 2px;
+    margin: 0 0px;
+    padding: 0 10px;
 }
 
 window#waybar {
-    background-color: @mantle;
+    background-color: transparent;
     /*border-bottom: 3px solid alpha(@mantle, 0.3);*/
     color: @text;
     /*transition-property: background-color;
     transition-duration: .5s;*/
-    opacity: 1.0;
     /*border: none;*/
-    border-radius: 10;
 }
 
 /*window#waybar.hidden {
@@ -59,23 +55,21 @@ tooltip label	{
 button {
     /* Use box-shadow instead of border so the text isn't offset */
     /* Avoid rounded borders under each button name */
-    border-bottom: 4px solid transparent;
 }
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
-    background: @surface2;
+    background: @surface0;
 }
 
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
-    background-color: @surface2;
 }
 
 #workspaces button {
     color: @red;
-    border-bottom-color: @red;
-    min-height: 0;
+    background-color: @surface0;
+    padding: 0 0px;
 }
 
 #workspaces button:hover {
@@ -83,7 +77,6 @@ button:hover {
 
 #workspaces button.focused, #workspaces button.active {
 	color: @sky;
-	border-bottom-color: @sky;
     /*box-shadow: inset 0 -3px #ffffff;*/
 }
 
@@ -132,7 +125,7 @@ button:hover {
 
 #clock {
     color: @lavender;
-    border-bottom-color: @lavender;
+    background-color: @surface0
 }
 
 #battery {
@@ -187,12 +180,12 @@ label:focus {
 
 #cpu {
     color: @yellow;
-    border-bottom-color: @yellow;
+    background-color: @surface0;
 }
 
 #memory {
     color: @flamingo;
-    border-bottom-color: @flamingo;
+    background-color: @surface0;
 }
 
 #backlight {
@@ -201,7 +194,7 @@ label:focus {
 
 #network {
     color: @blue;
-    border-bottom-color: @blue;
+    background-color: @surface0;
 }
 
 #network.disconnected {
@@ -210,7 +203,7 @@ label:focus {
 
 #pulseaudio {
     color: @peach;
-    border-bottom-color: @peach;
+    background-color: @surface0;
 }
 
 #pulseaudio.muted {
@@ -335,5 +328,10 @@ label:focus {
 
 #mpris {
 	color: @green;
-	border-bottom-color: @green;
+	background-color: @surface0;
+}
+
+#window {
+	color: @text;
+	background-color: @surface0;
 }
