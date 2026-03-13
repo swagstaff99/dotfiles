@@ -12,3 +12,4 @@ eval "$(starship init bash)"
 fastfetch
 alias update='sudo pacman -Syu && yay'
 alias w='start-hyprland'
+alias updatedots='chezmoi re-add && chezmoi cd && git add . && git commit -m "." && git push'
