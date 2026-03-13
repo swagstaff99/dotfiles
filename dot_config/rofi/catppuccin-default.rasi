@@ -4,7 +4,7 @@
  @import "catppuccin-mocha"
 
 * {
-  selected-active-foreground:  @background;
+  selected-active-foreground:  @lavender;
   lightfg:                     @text;
   separatorcolor:              @foreground;
   urgent-foreground:           @red;
@@ -16,7 +16,7 @@
   selected-urgent-background:  @red;
   alternate-active-background: @lightbg;
   spacing:                     2;
-  alternate-normal-foreground: @foreground;
+  alternate-normal-foreground: @lavender;
   urgent-background:           @background;
   selected-normal-foreground:  @lightbg;
   active-foreground:           @blue;
@@ -27,7 +27,7 @@
   alternate-normal-background: @lightbg;
   foreground:                  @text;
   selected-urgent-foreground:  @background;
-  normal-foreground:           @foreground;
+  normal-foreground:           @lavender;
   alternate-urgent-foreground: @red;
   alternate-active-foreground: @blue;
 
