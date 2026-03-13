@@ -105,7 +105,7 @@ ForegroundPositive=166,227,161
 ForegroundVisited=137,180,250
 
 [General]
-ColorSchemeHash=9f63c7711a13123582e720791ea0f8c0172977d2
+ColorSchemeHash=4a042a980d1d24eb5a3609f2bd8978eb6853fff1
 XftAntialias=true
 XftHintStyle=hintmedium
 XftSubPixel=vrgb
@@ -114,6 +114,9 @@ font=SF Pro,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 menuFont=SF Pro,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 smallestReadableFont=SF Pro,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 toolBarFont=SF Pro,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[Icons]
+Theme=ColorFlow
 
 [KDE]
 LookAndFeelPackage=Catppuccin.Mocha
