@@ -12,3 +12,4 @@ eval "$(starship init bash)"
 fastfetch
 alias update='sudo pacman -Syu && yay'
 alias w='start-hyprland'
+export EDITOR="nvim"

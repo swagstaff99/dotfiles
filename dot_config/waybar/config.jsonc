@@ -211,8 +211,8 @@
 	"format": "{player_icon} <i>{dynamic}</i>",
 	"format-paused": "{status_icon} <i>{dynamic}</i>",
 	"interval": 1,
-	"on-scroll-up": "wpctl set-volume 102 5%+",
-	"on-scroll-down": "wpctl set-volume 102 5%-",
+	"on-scroll-up": "/home/sheldon/.scripts/spotifyvol.sh",
+	"on-scroll-down": "/home/sheldon/.scripts/spotifyvoldown.sh",
 	"max-length": 30,
 	"player-icons": {
 		"default": "▶",

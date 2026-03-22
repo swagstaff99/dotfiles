@@ -1,11 +1,11 @@
 aquamarine-git
 brave-bin
-github-desktop
 hyprcursor-git
 hyprgraphics-git
 hypridle-git
 hyprland-git
 hyprland-guiutils-git
+hyprland-protocols-git
 hyprland-qt-support-git
 hyprlang-git
 hyprlock-git
@@ -16,9 +16,10 @@ hyprutils-git
 hyprwayland-scanner-git
 hyprwire-git
 klassy
+otf-apple-sf-pro-fixed
 proton-vpn-qt-app
+protonup-qt-bin
 qt6ct-kde
 spicetify-cli
 spicetify-marketplace-bin
 xdg-desktop-portal-hyprland-git
-yay

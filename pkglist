@@ -1,5 +1,7 @@
 archlinux-xdg-menu
 aurorae
+base
+base-devel
 breeze
 breeze-cursors
 breeze-gtk
@@ -12,6 +14,7 @@ compsize
 dolphin
 easyeffects
 efibootmgr
+exfatprogs
 fastfetch
 gamemode
 git
@@ -26,7 +29,13 @@ kde-gtk-config
 kdecoration
 kitty
 kvantum
+kwallet-pam
 layer-shell-qt
+lib32-nvidia-utils
+linux
+linux-firmware
+linux-headers
+lxappearance
 mako
 man-db
 man-pages
@@ -35,6 +44,8 @@ nano
 neovim
 networkmanager
 ntp
+nvidia-open-dkms
+nvidia-utils
 nwg-look
 otf-font-awesome
 pavucontrol
@@ -55,6 +66,7 @@ ttf-firacode-nerd
 ttf-jetbrains-mono-nerd
 tuned
 waybar
+wev
 wofi
-xdg-desktop-portal-kde
 wpaperd
+xdg-desktop-portal-kde
