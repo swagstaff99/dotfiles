@@ -1,5 +1,6 @@
 aquamarine-git
 brave-bin
+github-desktop
 hyprcursor-git
 hyprgraphics-git
 hypridle-git
@@ -16,6 +17,8 @@ hyprutils-git
 hyprwayland-scanner-git
 hyprwire-git
 klassy
+linux619-tkg-bore
+linux619-tkg-bore-headers
 otf-apple-sf-pro-fixed
 proton-vpn-qt-app
 protonup-qt-bin
@@ -23,3 +26,6 @@ qt6ct-kde
 spicetify-cli
 spicetify-marketplace-bin
 xdg-desktop-portal-hyprland-git
+xdg-desktop-portal-termfilechooser
+yay
+yay-debug

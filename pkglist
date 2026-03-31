@@ -19,6 +19,7 @@ fastfetch
 gamemode
 git
 goverlay
+intel-ucode
 iotop
 jellyfin-server
 jellyfin-web
@@ -49,6 +50,7 @@ nvidia-utils
 nwg-look
 otf-font-awesome
 pavucontrol
+pavucontrol-qt
 pipewire-alsa
 python-pywal
 qbittorrent
@@ -70,3 +72,4 @@ wev
 wofi
 wpaperd
 xdg-desktop-portal-kde
+yazi

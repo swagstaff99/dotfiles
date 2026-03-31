@@ -1,9 +1,9 @@
 [DP-2]
-path = "/home/sheldon/Pictures/walls/"
-duration = "5m"
-sorting = "random"
+path = "/home/sheldon/Pictures/walls/a.png"
+#duration = "5m"
+#sorting = "random"
 
 [DP-4]
-path = "/home/sheldon/Pictures/walls/"
-duration = "5m"
-sorting = "random"
+path = "/home/sheldon/Pictures/walls/a.png"
+#duration = "5m"
+#sorting = "random"
