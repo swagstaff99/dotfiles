@@ -116,7 +116,7 @@ smallestReadableFont=SF Pro,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 toolBarFont=SF Pro,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [Icons]
-Theme=breeze-dark
+Theme=Slot-Nord-Dark-Colorize-Icons
 
 [KDE]
 LookAndFeelPackage=Catppuccin.Mocha
