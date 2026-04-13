@@ -1,5 +1,7 @@
 aquamarine-git
 brave-bin
+gamescope-session-git
+gamescope-session-steam-git
 github-desktop
 hyprcursor-git
 hyprgraphics-git
@@ -23,9 +25,8 @@ otf-apple-sf-pro-fixed
 proton-vpn-qt-app
 protonup-qt-bin
 qt6ct-kde
-spicetify-cli
+spicetify-cli-git
 spicetify-marketplace-bin
 xdg-desktop-portal-hyprland-git
 xdg-desktop-portal-termfilechooser
 yay
-yay-debug
