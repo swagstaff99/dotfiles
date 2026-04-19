@@ -16,6 +16,8 @@ window#waybar {
     background-color: transparent;
     /*border-bottom: 3px solid alpha(@mantle, 0.3);*/
     color: @text;
+    padding: 10px;
+    margin: 10px;
     /*transition-property: background-color;
     transition-duration: .5s;*/
     /*border: none;*/
@@ -243,7 +245,7 @@ label:focus {
 }
 
 #tray {
-    background-color: #2980b9;
+    background-color: @surface0;
 }
 
 #tray > .passive {

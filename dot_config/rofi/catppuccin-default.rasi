@@ -10,7 +10,7 @@
   urgent-foreground:           @red;
   alternate-urgent-background: @lightbg;
   lightbg:                     @mantle;
-  background-color:            transparent;
+  background-color:            @background;
   border-color:                @foreground;
   normal-background:           @background;
   selected-urgent-background:  @red;
@@ -91,6 +91,7 @@ window {
     background-color: @background;
     border:           none;
     border-radius: 10;
+    width: 20%;
 }
 mainbox {
     padding: 0;
