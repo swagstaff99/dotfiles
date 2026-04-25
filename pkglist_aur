@@ -18,9 +18,6 @@ hyprtoolkit-git
 hyprutils-git
 hyprwayland-scanner-git
 hyprwire-git
-klassy
-linux619-tkg-bore
-linux619-tkg-bore-headers
 otf-apple-sf-pro-fixed
 proton-vpn-qt-app
 protonup-qt-bin
@@ -29,4 +26,3 @@ spicetify-cli-git
 spicetify-marketplace-bin
 xdg-desktop-portal-hyprland-git
 xdg-desktop-portal-termfilechooser
-yay
