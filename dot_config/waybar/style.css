@@ -2,7 +2,7 @@
 
 * {
 	font-family: JetBrainsMono Nerd Font;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 600;
 	padding: 0 10px;
 	border-radius: 5px;
@@ -13,6 +13,7 @@
 window#waybar {
 	background-color: transparent;
 	color: @text;
+	border-radius: 10px;
 }
 
 
@@ -32,63 +33,47 @@ window#waybar {
 #window {
 	background-color: @base;
 	color: @text;
-	border-bottom: 2px solid;
-	border-bottom-color: @lavender;
 }
 
 
 #cpu {
 	background-color: @base;
 	color: @blue;
-	border-bottom: 2px solid;
-	border-bottom-color: @lavender;
 }
 
 
 #memory {
 	background-color: @base;
 	color: @peach;
-	border-bottom: 2px solid;
-	border-bottom-color: @lavender;
 }
 
 
 #clock {
 	background-color: @base;
 	color: @maroon;
-	border-bottom: 2px solid;
-	border-bottom-color: @lavender;
 }
 
 
 #network {
 	background-color: @base;
 	color: @green;
-	border-bottom: 2px solid;
-	border-bottom-color: @lavender;
 }
 
 #tray {
 	background-color: @base;
 	color: @text;
-	border-bottom: 2px solid;
-	border-bottom-color: @lavender;
 }
 
 
 #pulseaudio {
 	background-color: @base;
 	color: @pink;
-	border-bottom: 2px solid;
-	border-bottom-color: @lavender;
 }
 
 
 #mpris {
 	background-color: @base;
 	color: @green;
-	border-bottom: 2px solid;
-	border-bottom-color: @lavender;
 }
 
 
