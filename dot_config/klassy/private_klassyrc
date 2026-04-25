@@ -18,7 +18,7 @@ CloseButtonIconColorInactive=AsSelected
 ButtonSpacingRight=4
 
 [Global]
-LookAndFeelSet=Catppuccin.Mocha
+LookAndFeelSet=org.kde.breezedark.desktop
 RefreshedConfig=6.5.2
 
 [Style]
